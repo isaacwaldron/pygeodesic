@@ -1,5 +1,5 @@
 import unittest
-from geodesic import ConsoleApp
+from pygeodesic import ConsoleApp
 
 class MyConsoleApp(ConsoleApp):
     def __init__(self, expectedArg):

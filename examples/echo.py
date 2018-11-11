@@ -1,4 +1,4 @@
-from geodesic import ConsoleApp
+from pygeodesic import ConsoleApp
 
 import argparse
 
