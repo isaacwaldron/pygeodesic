@@ -7,7 +7,7 @@ class EchoApp(ConsoleApp):
         self._parser.add_argument('input', nargs=argparse.REMAINDER)
 
     def _run(self):
-        print ' '.join(self._args.input[1:])
+        print ' '.join(self._args.input)
 
 if __name__ == '__main__':
     app = EchoApp()

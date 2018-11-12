@@ -25,5 +25,6 @@ class ConsoleApp(object):
 
     def __parse(self, args = None):
         if args == None:
-            args = sys.argv
-        self._args = self._parser.parse_args(args)
+            self._args = self._parser.parse_args()
+        else:
+            self._args = self._parser.parse_args(args)
